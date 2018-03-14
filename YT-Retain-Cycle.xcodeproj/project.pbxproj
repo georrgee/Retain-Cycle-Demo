@@ -14,6 +14,7 @@
 		36A602E32058A71200B538C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A602E12058A71200B538C9 /* LaunchScreen.storyboard */; };
 		36A602EE2058A71200B538C9 /* YT_Retain_CycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A602ED2058A71200B538C9 /* YT_Retain_CycleTests.swift */; };
 		36A602F92058A71200B538C9 /* YT_Retain_CycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A602F82058A71200B538C9 /* YT_Retain_CycleUITests.swift */; };
+		36A603072058A73500B538C9 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A603062058A73500B538C9 /* Classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		36A602F42058A71200B538C9 /* YT-Retain-CycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-Retain-CycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A602F82058A71200B538C9 /* YT_Retain_CycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YT_Retain_CycleUITests.swift; sourceTree = "<group>"; };
 		36A602FA2058A71200B538C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A603062058A73500B538C9 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				36A602D82058A71200B538C9 /* AppDelegate.swift */,
 				36A602DA2058A71200B538C9 /* ViewController.swift */,
+				36A603062058A73500B538C9 /* Classes.swift */,
 				36A602DC2058A71200B538C9 /* Main.storyboard */,
 				36A602DF2058A71200B538C9 /* Assets.xcassets */,
 				36A602E12058A71200B538C9 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				36A602DB2058A71200B538C9 /* ViewController.swift in Sources */,
 				36A602D92058A71200B538C9 /* AppDelegate.swift in Sources */,
+				36A603072058A73500B538C9 /* Classes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

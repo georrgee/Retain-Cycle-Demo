@@ -9,10 +9,34 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var george: Person?
+    var vicki: Macbook?
+    
+    func createObjects(){
+        
+        george = Person(name: "George", macbook: nil)
+        vicki = Macbook(macbookName: "Vicki", owner: nil)
+    }
+    
+    func assignProperties(){
+        
+        george?.macbook = vicki
+        vicki?.owner = george
+        
+        george = nil
+        vicki = nil
+        print(vicki?.owner) //vicki's owner is nil since george is gone (nil)
+        
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        createObjects()
+        assignProperties()
+        
     }
 
     override func didReceiveMemoryWarning() {
